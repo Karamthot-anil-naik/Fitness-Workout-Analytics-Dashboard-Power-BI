@@ -1,6 +1,6 @@
 # 🏋️ Fitness & Workout Analytics Dashboard — Power BI
 
-An interactive **Power BI dashboard** designed to analyze fitness and workout performance data, providing insights into workout habits, calories burned, heart-rate metrics, body composition, and user experience levels.
+An interactive **Power BI dashboard** designed to analyze fitness and workout performance data, providing insights into workout habits, calories burned, heart-rate metrics, body composition, and user performance trends.
 
 The dashboard uses data cleaning, transformation, data modeling, DAX measures, KPIs, slicers, and interactive visualizations to convert raw fitness data into meaningful analytical insights.
 
@@ -10,19 +10,19 @@ The dashboard uses data cleaning, transformation, data modeling, DAX measures, K
 
 ### Dashboard Overview
 
-![Dashboard Overview](Screenshots/dashboard-overview.png)
+![Dashboard Overview](work-type%20analysis.png)
 
 ### Workout Analysis
 
-![Workout Analysis]()
+![Workout Analysis](work-type%20analysis.png)
+
+### Experience Analysis
+
+![Experience Analysis](experience-analysis.png)
 
 ### Gender Analysis
 
-![Gender Analysis](Screenshots/gender-analysis.png)
-
-### Fitness Metrics
-
-![Fitness Metrics](Screenshots/fitness-metrics.png)
+![Gender Analysis](gender-analysis.png)
 
 ---
 
@@ -189,24 +189,15 @@ AVERAGE(Fitness[Workout_Frequency (days/week)])
 ## 📂 Repository Structure
 
 ```text
-PowerBI-Fitness-Workout-Dashboard/
+Fitness-Workout-Analytics-Dashboard-Power-BI/
 │
 ├── README.md
-│
-├── PowerBI/
-│   └── Fitness_Workout_Analytics_Dashboard.pbix
-│
-├── Screenshots/
-│   ├── dashboard-overview.png
-│   ├── workout-analysis.png
-│   ├── gender-analysis.png
-│   └── fitness-metrics.png
-│
-├── Dataset/
-│   └── fitness_workout_dataset.csv
-│
-└── Documentation/
-    └── dashboard-details.md
+├── my work.pbix
+├── gym_members_exercise_tracking.csv
+├── work-type analysis.png
+├── gender-analysis.png
+├── experience-analysis.png
+└── README.md
 ```
 
 ---
@@ -229,7 +220,7 @@ PowerBI-Fitness-Workout-Dashboard/
 
 ## 🚀 How to Use
 
-1. Download the `.pbix` file from the `PowerBI` folder.
+1. Download the `.pbix` file from the repository root.
 2. Open it using **Power BI Desktop**.
 3. If required, update the dataset path in Power Query.
 4. Refresh the data.
