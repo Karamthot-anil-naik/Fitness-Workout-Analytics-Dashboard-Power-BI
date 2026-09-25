@@ -10,7 +10,7 @@ The dashboard uses data cleaning, transformation, data modeling, DAX measures, K
 
 ### Dashboard Overview
 
-![Dashboard Overview](Screenshot 2026-09-25 201050.png).
+![Dashboard Overview](Screenshot%202026-09-25%20201050.png)
 
 ### Workout Analysis
 
@@ -194,10 +194,10 @@ Fitness-Workout-Analytics-Dashboard-Power-BI/
 ├── README.md
 ├── my work.pbix
 ├── gym_members_exercise_tracking.csv
-├── dashboard-overview.png
 ├── work-type analysis.png
 ├── gender-analysis.png
 ├── experience-analysis.png
+├── Screenshot 2026-09-25 201050.png
 └── README.md
 ```
 
