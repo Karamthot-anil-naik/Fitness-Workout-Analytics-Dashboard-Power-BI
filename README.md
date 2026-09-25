@@ -10,7 +10,7 @@ The dashboard uses data cleaning, transformation, data modeling, DAX measures, K
 
 ### Dashboard Overview
 
-![Dashboard Overview](dashboard-overview.png)
+![Dashboard Overview](Screenshot 2026-09-25 201050.png).
 
 ### Workout Analysis
 
