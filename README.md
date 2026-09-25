@@ -1,6 +1,6 @@
 # 🏋️ Fitness & Workout Analytics Dashboard — Power BI
 
-An interactive **Power BI dashboard** designed to analyze fitness and workout performance data, providing insights into workout habits, calories burned, heart-rate metrics, body composition, and user performance trends.
+An interactive **Power BI dashboard** designed to analyze fitness and workout performance data, providing insights into workout habits, calories burned, heart-rate metrics, body composition, and user [...]
 
 The dashboard uses data cleaning, transformation, data modeling, DAX measures, KPIs, slicers, and interactive visualizations to convert raw fitness data into meaningful analytical insights.
 
@@ -10,7 +10,7 @@ The dashboard uses data cleaning, transformation, data modeling, DAX measures, K
 
 ### Dashboard Overview
 
-![Dashboard Overview](work-type%20analysis.png)
+![Dashboard Overview](dashboard-overview.png)
 
 ### Workout Analysis
 
@@ -194,6 +194,7 @@ Fitness-Workout-Analytics-Dashboard-Power-BI/
 ├── README.md
 ├── my work.pbix
 ├── gym_members_exercise_tracking.csv
+├── dashboard-overview.png
 ├── work-type analysis.png
 ├── gender-analysis.png
 ├── experience-analysis.png
