@@ -1,105 +1,130 @@
-# 🏋️ Fitness & Workout Analytics Dashboard — Power BI
+#🏋️ Fitness & Workout Analytics Dashboard — Power BI
 
-An interactive **Power BI dashboard** designed to analyze fitness and workout performance data, providing insights into workout habits, calories burned, heart-rate metrics, body composition, and user experience levels.
+📊 Dashboard Preview
 
-The dashboard uses data cleaning, transformation, data modeling, DAX measures, KPIs, slicers, and interactive visualizations to convert raw fitness data into meaningful analytical insights.
+🏋️ Work Type Analysis
 
----
 
-## 📊 Dashboard Preview
 
-### Dashboard Overview
+👥 Gender Analysis
 
-![Dashboard Overview](Screenshots/dashboard-overview.png)
 
-### Workout Analysis
 
-![Workout Analysis](Screenshots/workout-analysis.png)
+📈 Experience Level Analysis
 
-### Gender Analysis
 
-![Gender Analysis](Screenshots/gender-analysis.png)
 
-### Fitness Metrics
+📊 Work Type Analysis — Detailed View
 
-![Fitness Metrics](Screenshots/fitness-metrics.png)
 
----
 
-## 🎯 Project Objectives
+🎯 Project Objectives
 
-The main objectives of this dashboard are to:
+Analyze workout patterns across different exercise types
 
-* Analyze workout performance and fitness metrics
-* Track calories burned during workout sessions
-* Analyze BMI and body composition
-* Understand workout frequency patterns
-* Compare different workout types
-* Analyze fitness metrics by gender
-* Examine differences across experience levels
-* Provide interactive filtering and data exploration
+Compare fitness metrics between male and female participants
 
----
+Analyze fitness performance by experience level
 
-## 📌 Key Dashboard Metrics
+Track calories burned and workout frequency
 
-The dashboard analyzes important fitness indicators including:
+Analyze BMI and body-fat percentage
 
-* Average Calories Burned
-* Average Fat Percentage
-* Average BMI
-* Workout Frequency
-* Average Session Duration
-* Average Heart Rate
-* Maximum Heart Rate
-* Resting Heart Rate
-* Water Intake
-* Workout Type
-* Experience Level
+Compare heart-rate metrics
 
----
+Analyze water intake and workout duration
 
-## 📈 Dataset
+Build an interactive Power BI dashboard for data exploration
 
-The dataset contains fitness and workout-related information such as:
+📌 Key Metrics
 
-| Column                        | Description                    |
-| ----------------------------- | ------------------------------ |
-| Age                           | Age of the individual          |
-| Gender                        | Gender category                |
-| Weight (kg)                   | Body weight                    |
-| Height (m)                    | Height                         |
-| Max_BPM                       | Maximum heart rate             |
-| Avg_BPM                       | Average heart rate             |
-| Resting_BPM                   | Resting heart rate             |
-| Session_Duration (hours)      | Workout session duration       |
-| Calories_Burned               | Calories burned during workout |
-| Workout_Type                  | Type of workout                |
-| Fat_Percentage                | Body fat percentage            |
-| Water_Intake (liters)         | Daily water intake             |
-| Workout_Frequency (days/week) | Workout frequency              |
-| Experience_Level              | Fitness experience level       |
-| BMI                           | Body Mass Index                |
+The dashboard includes analysis of:
 
----
+Average BPM
 
-## 🛠️ Tools & Technologies
+Average BMI
 
-* **Power BI Desktop**
-* **Power Query**
-* **DAX**
-* **Data Modeling**
-* **Data Cleaning**
-* **Data Transformation**
-* **Data Visualization**
-* **CSV / Excel**
+Average Calories Burned
 
----
+Average Max BPM
 
-## 🔄 Data Analysis Workflow
+Average Fat Percentage
 
-```text
-Raw Fitness Dataset
+Average Resting BPM
+
+Workout Frequency
+
+Session Duration
+
+Water Intake
+
+Workout Type
+
+Gender
+
+Experience Level
+
+📊 Dashboard Analysis
+
+Gender Analysis
+
+The gender analysis page compares fitness metrics across male and female participants, including:
+
+Calories Burned
+
+BMI
+
+Fat Percentage
+
+Workout Type Distribution
+
+Max BPM
+
+Average BPM
+
+Resting BPM
+
+Water Intake
+
+Experience Analysis
+
+The experience-level analysis allows fitness metrics to be explored across different experience levels.
+
+Workout Type Analysis
+
+The dashboard compares major workout categories:
+
+Strength
+
+Cardio
+
+HIIT
+
+Yoga
+
+Metrics can be filtered interactively to explore differences between workout types.
+
+🛠️ Tools & Technologies
+
+Power BI Desktop
+
+Power Query
+
+DAX
+
+Data Cleaning
+
+Data Transformation
+
+Data Modeling
+
+Data Visualization
+
+CSV Dataset
+
+🔄 Data Analysis Workflow
+
+Raw Gym Member Dataset
         ↓
 Data Cleaning
         ↓
@@ -114,139 +139,123 @@ KPI Development
 Interactive Visualizations
         ↓
 Power BI Dashboard
-```
 
----
+📂 Repository Structure
 
-## 📊 Dashboard Features
-
-### KPI Cards
-
-The dashboard provides high-level fitness indicators through KPI cards, including metrics such as:
-
-* Average Calories Burned
-* Average Fat Percentage
-* Average BMI
-* Workout Frequency
-* Session Duration
-
-### Workout Analysis
-
-The dashboard allows users to compare workout patterns across different workout types and experience levels.
-
-### Gender Analysis
-
-Interactive filtering can be used to examine differences in fitness metrics between male and female participants.
-
-### Fitness Metrics
-
-The dashboard provides analysis of:
-
-* BMI
-* Fat Percentage
-* Heart Rate
-* Calories Burned
-* Water Intake
-* Workout Frequency
-* Session Duration
-
-### Interactive Filters
-
-Users can interact with the dashboard using slicers and filters to explore specific segments of the dataset.
-
----
-
-## 🧮 Power BI & DAX
-
-DAX measures were used to create analytical KPIs and calculated metrics.
-
-Examples include:
-
-```DAX
-Average Calories Burned =
-AVERAGE(Fitness[Calories_Burned])
-```
-
-```DAX
-Average Fat Percentage =
-AVERAGE(Fitness[Fat_Percentage])
-```
-
-```DAX
-Average BMI =
-AVERAGE(Fitness[BMI])
-```
-
-```DAX
-Average Workout Frequency =
-AVERAGE(Fitness[Workout_Frequency (days/week)])
-```
-
-> Note: The actual DAX formulas in the `.pbix` file may differ depending on the final data model and column names.
-
----
-
-## 📂 Repository Structure
-
-```text
 PowerBI-Fitness-Workout-Dashboard/
 │
 ├── README.md
+├── my.work.pbix
+├── gym_members_exercise_tracking.csv
 │
-├── PowerBI/
-│   └── Fitness_Workout_Analytics_Dashboard.pbix
-│
-├── Screenshots/
-│   ├── dashboard-overview.png
-│   ├── workout-analysis.png
-│   ├── gender-analysis.png
-│   └── fitness-metrics.png
-│
-├── Dataset/
-│   └── fitness_workout_dataset.csv
-│
-└── Documentation/
-    └── dashboard-details.md
-```
+├── gender-analysis.png
+├── experience-analysis.png
+├── work-type analysis.png
+└── work-type analysis - Copy.png
 
----
+📁 Project Files
 
-## 💡 Key Skills Demonstrated
+File
 
-* Power BI
-* DAX
-* Power Query
-* Data Cleaning
-* Data Transformation
-* Data Modeling
-* KPI Development
-* Data Visualization
-* Exploratory Data Analysis
-* Interactive Dashboard Development
-* Business Intelligence
+Description
 
----
+my.work.pbix
 
-## 🚀 How to Use
+Power BI dashboard source file
 
-1. Download the `.pbix` file from the `PowerBI` folder.
-2. Open it using **Power BI Desktop**.
-3. If required, update the dataset path in Power Query.
-4. Refresh the data.
-5. Explore the dashboard using the available slicers and filters.
+gym_members_exercise_tracking.csv
 
----
+Dataset used for analysis
 
-## 👨‍💻 Author
+gender-analysis.png
 
-**Karamthot Anil Naik**
+Gender analysis dashboard
 
-**Aspiring Data Scientist | Machine Learning | NLP | Power BI**
+experience-analysis.png
 
-GitHub: [Karamthot-anil-naik](https://github.com/Karamthot-anil-naik)
+Experience-level analysis
 
----
+work-type analysis.png
 
-## 📌 Project Purpose
+Workout type analysis
 
-This project was developed as a portfolio project to demonstrate practical skills in **data analysis, Power BI dashboard development, data visualization, DAX, and business intelligence**.
+work-type analysis - Copy.png
+
+Additional workout analysis screenshot
+
+🧮 DAX & Power BI
+
+The dashboard uses DAX measures for analytical KPIs such as averages of:
+
+Calories Burned
+
+BMI
+
+Fat Percentage
+
+Max BPM
+
+Resting BPM
+
+Workout Frequency
+
+Example:
+
+Average Calories Burned =
+AVERAGE('gym_members_exercise_tracking'[Calories_Burned])
+
+Average BMI =
+AVERAGE('gym_members_exercise_tracking'[BMI])
+
+Average Fat Percentage =
+AVERAGE('gym_members_exercise_tracking'[Fat_Percentage])
+
+The exact DAX measure names may differ depending on the final Power BI data model.
+
+💡 Skills Demonstrated
+
+Power BI Dashboard Development
+
+DAX
+
+Power Query
+
+Data Cleaning
+
+Data Transformation
+
+Data Modeling
+
+KPI Development
+
+Exploratory Data Analysis
+
+Data Visualization
+
+Interactive Reporting
+
+Business Intelligence
+
+🚀 How to Use
+
+Download or clone this repository.
+
+Open my.work.pbix using Power BI Desktop.
+
+If Power BI asks for the dataset location, select gym_members_exercise_tracking.csv.
+
+Refresh the data if required.
+
+Use the slicers and visual interactions to explore the dashboard.
+
+👨‍💻 Author
+
+Karamthot Anil Naik
+
+Aspiring Data Scientist | Machine Learning | NLP | Power BI
+
+GitHub: Karamthot-anil-naik
+
+📌 Project Purpose
+
+This project demonstrates practical experience in data analysis, Power BI, DAX, data visualization, and interactive business intelligence dashboard development using a fitness and workout dataset.
