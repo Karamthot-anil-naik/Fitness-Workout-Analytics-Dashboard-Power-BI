@@ -1,4 +1,4 @@
-#🏋️ Fitness & Workout Analytics Dashboard — Power BI
+🏋️ Fitness & Workout Analytics Dashboard — Power BI
 
 📊 Dashboard Preview
 
